@@ -1,3 +1,7 @@
+## Insures that Django is found for ustilization
+import sys
+sys.path.append(r"C:\Users\Micah\Envs\venv\Lib\site-packages")
+
 from django.db import models
 from django.utils import timezone
 
